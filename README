@@ -1,0 +1,10 @@
+This project shows how to create a bounded and unbounded queue in iOS. They simplify
+prpducer/consumer pattern. I have checked in a fully working app. But, you will be most
+ineteresed in these files:
+
+- UnboundedBlockingQueue.m
+- BoundedBlockingQueue.m
+
+
+These classes closely mimic Java's  LinkedBlockingQueue and ArrayBlockingQueue classes. This
+should help you port any Android app to iOS.
